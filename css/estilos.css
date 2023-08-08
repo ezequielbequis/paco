@@ -1,0 +1,163 @@
+/*RESET*/
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+/*COLORES*/
+/*rojo: #d62828*/
+.bg-gris-claro {
+  background-color: #6c757d;
+}
+
+.bg-rojo {
+  background-color: #db2b2b;
+}
+
+.bg-blanco {
+  background-color: white;
+}
+
+.bg-verde-claro {
+  background-color: #24d364;
+}
+
+.bg-naranja {
+  background-color: #fb8500;
+}
+
+/*GENERALES*/
+.estilo-none {
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0%;
+  padding: 0%;
+}
+
+.titulos {
+  padding-top: 10px;
+  font-size: 33px;
+  text-align: center;
+  color: #0CC0DF;
+}
+
+.parrafos {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 6px;
+  color: #6c757d;
+}
+
+.linea {
+  border: 1px solid #6c757d;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.contenedor {
+  margin-top: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.pr-3 {
+  padding-right: 16px;
+}
+
+.centrado {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-item {
+  position: relative;
+}
+
+.img-title {
+  margin: 0;
+  padding-bottom: 20px;
+  padding-top: 18px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  background: linear-gradient(rgba(255, 255, 255, 0), rgb(0, 0, 0));
+}
+
+/*IMAGENES*/
+/*para img mail y contacto header arriba*/
+.img-mh {
+  object-fit: scale-down;
+  padding-right: 5px;
+}
+
+.direction-column {
+  flex-direction: column;
+}
+
+/*HEADER*/
+.hc {
+  color: #6c757d;
+}
+
+header section nav ul {
+  margin: 0;
+  padding: 0;
+  height: 50px;
+}
+header section nav ul a {
+  margin-right: 0px;
+  font-weight: 600;
+  color: #222324;
+  text-decoration: none;
+  border-bottom: 1px solid #222324;
+}
+
+.barra-inicial {
+  width: 100%;
+  height: 70px;
+  background-color: #222324;
+  align-items: center;
+}
+
+.contacto-header {
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+}
+
+.logo {
+  width: 200px;
+  height: 116px;
+  margin-top: 20px;
+}
+
+.nav-header {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.letra-hdr {
+  font-size: 18px;
+}
+
+/*Botones*/
+.boton-contacto {
+  width: 100%;
+  height: 32px;
+  border-radius: 4px;
+  display: flex;
+  color: white;
+  border: 0;
+  font-size: 18px;
+  align-items: center;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=estilos.css.map */

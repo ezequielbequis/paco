@@ -1,0 +1,72 @@
+/*GENERALES*/
+
+.estilo-none{
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+.titulos{
+    padding-top: 10px;
+    font-size: 33px;
+    text-align: center;
+    color: #0CC0DF;
+}
+
+.parrafos{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 6px;
+    color: $gris-claro;
+}
+
+.linea{
+    border: 1px solid $gris-claro;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.contenedor{
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+    
+.pr-3{
+    padding-right: 16px;
+}
+
+.centrado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-item{
+    position: relative;
+}
+
+.img-title{
+    margin: 0;
+    padding-bottom: 20px;
+    padding-top: 18px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    background: linear-gradient(rgba(255,255,255,0), rgba(0,0,0,1));
+}
+
+/*IMAGENES*/
+/*para img mail y contacto header arriba*/
+.img-mh{
+    object-fit:scale-down;
+    padding-right: 5px;
+}
+
+.direction-column{
+    flex-direction: column;
+}
