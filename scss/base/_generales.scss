@@ -7,6 +7,13 @@
     padding: 0%;
 }
 
+.m-0{
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+}
+
 .titulos{
     padding-top: 10px;
     font-size: 33px;
@@ -43,6 +50,11 @@
     justify-content: center;
 }
 
+.letra-boton{
+    color: white;
+    text-decoration: none;
+}
+
 .img-item{
     position: relative;
 }
@@ -69,4 +81,8 @@
 
 .direction-column{
     flex-direction: column;
+}
+
+.sd{
+    padding-bottom: 3px;
 }

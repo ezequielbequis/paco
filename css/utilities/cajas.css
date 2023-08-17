@@ -1,6 +1,6 @@
 /*Botones*/
 .boton-contacto {
-  width: 100%;
+  width: 85%;
   height: 32px;
   border-radius: 4px;
   display: flex;
@@ -10,7 +10,17 @@
   align-items: center;
   justify-content: center;
   text-decoration: none;
+  margin-top: 12px;
+}
+
+/*Cajas*/
+.caja-contacto {
   margin-top: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /*# sourceMappingURL=cajas.css.map */
