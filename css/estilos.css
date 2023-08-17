@@ -26,6 +26,10 @@
   background-color: #fb8500;
 }
 
+.bg-celeste {
+  background-color: #0CC0DF;
+}
+
 /*GENERALES*/
 .estilo-none {
   text-decoration: none;
@@ -159,6 +163,7 @@ header section nav ul a {
   align-items: center;
   justify-content: center;
   text-decoration: none;
+  margin-top: 10px;
 }
 
 /*# sourceMappingURL=estilos.css.map */
