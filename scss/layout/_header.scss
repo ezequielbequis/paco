@@ -7,17 +7,19 @@
 header{
     section{
         nav{
+            height: 40px;
             ul{
                 margin: 0;
                 padding: 0;
-                height: 50px;
-                
                 a{
+                    display: flex;
+                    align-items: center;
                     margin-right: 0px;
                     font-weight: 600;
                     color: #222324;
                     text-decoration: none;
                     border-bottom: 1px solid #222324;
+                    object-fit:scale-down;
                 }
             }
         }
@@ -41,6 +43,7 @@ header{
     width: 200px;
     height: 116px;
     margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .nav-header{
@@ -55,4 +58,8 @@ header{
     font-size: 18px;
 }
 
+.d-flex-column{
+    display: flex;
+    flex-direction: column;
+}
 
